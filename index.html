@@ -1,23 +1,83 @@
 ---
-layout: default
+layout: landing
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<!-- Start -->
+<a id="start" class="anchor"></a>
+<div class="bg-video">
+  <div class="section container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-white">Pollen alert: the alergen compass</h1>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9M91NDIaKHo?rel=0&amp;controls=0&amp;showinfo=0" allowfullscreen=""> </iframe>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+<!-- About us -->
+<a id="about" class="anchor"></a>
+<div class="bg bg-primary">
+  <div class="section container">
+    <div class="row">
+      <div class="col-md-6">
+        <h1 class="text-white">Historia</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem. </p>
+      </div>
+      <div class="col-md-6 extra-padding">
+        <img src="{{ "/img/Equipo.JPG" | prepend: site.baseurl }}" class="img-rounded img-responsive">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Our Team -->
+<a id="team" class="anchor"></a>
+<div class="bg">
+  <div class="section container">
+    <div class="rounded bg-info">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-white">Equipo</h1>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-sm-6 padding">
+          <img src="https://pingendo.com/assets/photos/user_placeholder.png" class="img-center img-responsive img-circle">
+          <h3>John Doe</h3>
+          <p>Developer</p>
+        </div>
+        <div class="col-sm-6 padding">
+          <img src="https://pingendo.com/assets/photos/user_placeholder.png" class="img-center img-responsive img-circle">
+          <h3>John Doe</h3>
+          <p>Developer</p>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-sm-6 padding">
+          <img src="https://pingendo.com/assets/photos/user_placeholder.png" class="img-center img-responsive img-circle">
+          <h3>John Doe</h3>
+          <p>Developer</p>
+        </div>
+        <div class="col-sm-6 padding">
+          <img src="https://pingendo.com/assets/photos/user_placeholder.png" class="img-center img-responsive img-circle">
+          <h3>John Doe</h3>
+          <p>Developer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Future -->
+<a id="future" class="anchor"></a>
+<div class="bg bg-primary">
+  <div class="section container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text-white">Futuro</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p>
+      </div>
+    </div>
+  </div>
 </div>

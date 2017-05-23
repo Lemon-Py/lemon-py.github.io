@@ -1,0 +1,129 @@
+body {
+  padding-top: 50px;
+  color: #015249;
+  position: relative;
+}
+
+a.anchor {
+    display: block;
+    height: 50px; /*same height as header*/
+    margin-top: -50px; /*same height as header*/
+}
+
+.section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: auto;
+}
+
+.text-white {
+  color: #FFFFFF;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+.padding {
+  padding-bottom: 3rem;
+}
+
+.rounded {
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.bg-video {
+  width: 100vw;
+  background-color: black;
+}
+
+.bg {
+  width: 100vw;
+}
+
+.bg-primary {
+    color: #fff;
+    background-color: #57bc90;
+}
+
+.bg-info {
+    color: #FFFFFF;
+    background-color: #015249;
+}
+
+.bg-footer {
+  width: 100vw;
+  background-color: #a5a5af;
+}
+
+.footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+.arrow-down {
+  border: solid black;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 5px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin: 0 auto;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .section{
+    height: 100vh;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .extra-padding {
+      padding: 80px 50px;
+  }
+  a.anchor {
+      display: block;
+      height: 20px; /*same height as header*/
+      margin-top: -20px; /*same height as header*/
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .section{
+    height: 100vh;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .extra-padding {
+      padding: 80px 50px;
+  }
+  a.anchor {
+      display: block;
+      height: 20px; /*same height as header*/
+      margin-top: -20px; /*same height as header*/
+  }
+}
