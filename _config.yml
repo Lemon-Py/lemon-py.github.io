@@ -5,6 +5,10 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+source: .
+include: ['_pages']
+
+
 # Site settings
 title: Lemon-py
 email: your-email@domain.com
