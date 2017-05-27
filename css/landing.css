@@ -9,6 +9,10 @@ h1,h2,h3,h4,h5,h6,navbar-brand {
   font-family: 'Nunito', sans-serif;
 }
 
+.jumbotron {
+  margin:0;
+}
+
 a.anchor {
     display: block;
     height: 50px; /*same height as header*/
