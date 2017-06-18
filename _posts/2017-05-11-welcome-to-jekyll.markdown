@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+subtitle: "Este es un subtitulo"
 date:   2017-05-11 22:41:36 -0300
 categories: jekyll update
 header-img: img/post-bg.jpg
