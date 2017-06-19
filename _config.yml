@@ -10,14 +10,14 @@ include: ['_pages']
 
 
 # Site settings
-title: Lemon-py
+title: LemonPy
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Urban vegetation phenology analysis. Sattelite image based, open source and
   community powered
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lemon-py.github.io/" # the base hostname & protocol for your site
-twitter_username: jekyllrb
+twitter_username: Lemon4Py
 github_username:  lemon-py
 
 # Build settings
