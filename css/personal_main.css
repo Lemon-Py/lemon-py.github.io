@@ -57,8 +57,8 @@ p {
     clip: rect(1px, 1px, 1px, 1px);
     padding:0 !important;
     border:0 !important;
-    height: 1px !important; 
-    width: 1px !important; 
+    height: 1px !important;
+    width: 1px !important;
     overflow: hidden;
 }
 /****************************************
@@ -93,6 +93,10 @@ p {
 .navbar-inverse .navbar-nav > .active > a {
     color: #148dad;
     background-color: black;
+}
+
+.navbar-nav > li {
+  text-align: right;
 }
 
 /****************************************
@@ -172,14 +176,14 @@ p {
     color: #ffffff;
 }
 
-/* Tablets */ 
+/* Tablets */
 @media only screen and (max-width : 768px) {
     #banner {
 	background: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url("../img/banner_sm.jpg") no-repeat center center fixed;
     }
 }
 
-/* Extra Small Devices, Phones */ 
+/* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     #banner {
 	background: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url("../img/banner_xs.jpg") no-repeat center center fixed;
