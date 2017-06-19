@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head_main.html %}
+
+  <body data-spy="scroll" data-target="#myNavbar" data-offset="100">
+    <div class="header-hidden">
+      <h1>LemonPy Main Page</h1>
+    </div><!--/header-hidden -->
+    
+    {% include nav-bar_main.html %}
+    
+    {{ content }}
+	
+    {% include footer_main.html %}
+
+    {% if site.debug %}
+    {% include toc.html %}
+    {% endif %}
+  </body>
+
+</html>

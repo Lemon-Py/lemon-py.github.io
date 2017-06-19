@@ -1,0 +1,326 @@
+/* Lemon-Py CSS */
+
+/****************************************
+ * Base structure
+ ****************************************/
+body {
+    font-family: Helvetica, Arial;
+}
+
+.site-name {
+    font-family: 'Raleway', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 15px;
+    line-height: 1.50;
+    color: #333333;
+    text-align: center;
+}
+
+ol, ul {
+    list-style: outside none none;
+}
+
+.list-icons {
+    padding: 0;
+    margin: 20px 0;
+    list-style: none;
+    font-size: 18px;
+}
+
+.list-icons li {
+    padding: 0 0 15px 0;
+}
+
+blockquote {
+    border-left: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.title {
+    margin-top: 0;
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.header-hidden {
+    position: absolute !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding:0 !important;
+    border:0 !important;
+    height: 1px !important; 
+    width: 1px !important; 
+    overflow: hidden;
+}
+/****************************************
+ * Colors
+ ***************************************/
+.color-blue {
+    color: #148dad;
+    font-weight: 700;
+}
+
+.color-red {
+    color: #9e2727;
+    font-weight: 700;
+}
+
+.color-gray {
+    color: #e8e8e8;
+    font-weight: 700;
+}
+/****************************************
+ * Nav-bar
+ ***************************************/
+.navbar-inverse {
+    background-color: black;
+}
+
+#myNavbar {
+    float: right;
+    font-weight: 700;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    color: #148dad;
+    background-color: black;
+}
+
+/****************************************
+ * Box
+ ***************************************/
+.box-def {
+    background: #FFF none repeat scroll 0% 0%;
+    box-shadow: 3px 4px 15px -6px #000;
+    padding: 20px 25px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+.box-title {
+    color: #148dad;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.box-title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #9e2727;
+    width: 60px;
+    height: 5px;
+}
+
+.box-def p {
+    color: #87818C;
+    font-size: 15px;
+    letter-spacing: -0.02em;
+    line-height: 1.6em;
+    padding: 0px 15px;
+    text-align: justify;
+}
+
+.box-list {
+    text-align: left;
+}
+
+.box-list ul {
+    padding: 0px;
+    font-size: 16px;
+}
+
+.box-list ul li i {
+    color: #1ABC9C;
+}
+
+.box-list ul li p {
+    padding: 0px;
+    text-align: right;
+    margin: 0px;
+    display: inline;
+}
+
+.box-img {
+    margin: 0 auto;
+}
+/****************************************
+ * Banner
+ ***************************************/
+#banner {
+    background: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url("../img/banner.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    color: #ffffff;
+}
+
+/* Tablets */ 
+@media only screen and (max-width : 768px) {
+    #banner {
+	background: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url("../img/banner_sm.jpg") no-repeat center center fixed;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    #banner {
+	background: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url("../img/banner_xs.jpg") no-repeat center center fixed;
+    }
+}
+
+#banner > div {
+    padding-top: 15%;
+    text-align: left;
+    font-family: "Ubuntu",sans-serif;
+}
+
+#banner .banner-title {
+    font-size: 4em;
+    font-weight: 700;
+    padding-top: 10%;
+    padding-bottom: 15px;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+}
+
+#banner .banner-subtitle {
+    font-size: 1.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 992px) {
+    #banner .banner-title {
+	padding-top: 30%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #banner .banner-title {
+	padding-top: 45%;
+    }
+}
+/****************************************
+ * Polen Alert Video
+ ***************************************/
+#polen-video {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: black;
+    color: white;
+}
+
+/****************************************
+ * Idea
+ ***************************************/
+#idea {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    color: #fff;
+    background-color: #57bc90;
+}
+
+/****************************************
+ * Team
+ ***************************************/
+#team {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: #015249;
+}
+
+/****************************************
+ * Future
+ ***************************************/
+#future {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: #57bc90;
+}
+
+/****************************************
+ * Footer
+ ***************************************/
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-texto {
+    text-align: left;
+}
+
+.footer-texto > p {
+    margin-bottom: 0px;
+}
+
+.footer-texto > p > strong {
+    color: #e62b1e;
+}
+
+/****************************************
+ * Social
+ ****************************************/
+.social-links {
+    padding: 0;
+    list-style: none;
+    margin: 15px 0;
+}
+
+.social-links li {
+    margin: 10px 25px 10px 0;
+    display: inline-block;
+    font-size: 36px;
+}
+
+.social-links li a {
+    color: #fff;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.social-links li.twitter a:hover {
+    color: #55acee;
+}
+
+.social-links li.flickr a:hover {
+    color: #ff0084;
+}
+
+.social-links li.facebook a:hover {
+    color: #3b5998;
+}
+
+.social-links li.youtube a:hover {
+    color: #b31217;
+}
+
+.social-links li.email a:hover {
+    color: #b31217;
+}
+
+.social-links li.github a:hover {
+    color: #3b5998;
+}
