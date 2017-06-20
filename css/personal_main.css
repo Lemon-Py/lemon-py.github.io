@@ -212,13 +212,13 @@ p {
 
 @media only screen and (max-width: 992px) {
     #banner .banner-title {
-	padding-top: 30%;
+	padding-top: 15%;
     }
 }
 
 @media only screen and (max-width: 640px) {
     #banner .banner-title {
-	padding-top: 45%;
+	padding-top: 20%;
     }
 }
 /****************************************
