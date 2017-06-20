@@ -11,7 +11,7 @@ include: ['_pages']
 
 # Site settings
 title: LemonPy
-email: ogianatiempo@gmail.com
+email: lemon4py@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Urban vegetation phenology analysis. Sattelite image based, open source and
   community powered
