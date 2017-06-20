@@ -237,7 +237,7 @@ p {
 #news {
     padding-bottom: 100px;
     padding-top: 100px;
-    background-color: black;
+    background-color: cadetblue;
     color: white;
 }
 
@@ -248,7 +248,7 @@ p {
     padding-bottom: 100px;
     padding-top: 100px;
     color: #fff;
-    background-color: #57bc90;
+    background-color: firebrick;
 }
 
 /****************************************
@@ -257,7 +257,7 @@ p {
 #team {
     padding-bottom: 100px;
     padding-top: 100px;
-    background-color: #015249;
+    background-color: cadetblue;
 }
 
 .team-member-img {
@@ -274,7 +274,7 @@ p {
 #future {
     padding-bottom: 100px;
     padding-top: 100px;
-    background-color: #57bc90;
+    background-color: firebrick;
 }
 
 /****************************************
