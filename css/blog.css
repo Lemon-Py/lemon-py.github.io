@@ -1,3 +1,26 @@
+/****************************************
+ * Colors
+ ***************************************/
+.color-blue {
+    color: #148dad;
+    font-weight: 700;
+}
+
+.color-red {
+    color: #9e2727;
+    font-weight: 700;
+}
+
+.color-gray {
+    color: #e8e8e8;
+    font-weight: 700;
+}
+
+
+
+/****************************************
+ * Rest of template
+ ***************************************/
 body {
   font-size: 20px;
   color: #404040;
@@ -49,7 +72,6 @@ hr.small {
   font-weight: 800;
   letter-spacing: 1px;
 }
-
 /* A partir de acá deje todo igual */
 
 @media only screen and (min-width: 768px) {
