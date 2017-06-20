@@ -13,7 +13,8 @@ layout: default_main
     <div class="row">
       <div class="col-xs-7">
 	<p class="banner-title">LemonPy</p>
-	<p class="banner-subtitle hidden-sm hidden-xs">Análisis fenológico de vegetación urbana
+	<p class="banner-subtitle hidden-sm hidden-xs">
+	  Análisis fenológico de vegetación urbana
 	  <br>Basado en <span class="typewrite" data-period="1000"
 			      data-type='["imágenes satelitales",
 			      "análisis estadísticos",
@@ -36,13 +37,17 @@ layout: default_main
 
       <!-- Img -->
       <div class="col-sm-5 col-md-5">
-	<div> <img src="{{ post.img-sqrt | prepend: site.baseurl }}" class="img-rounded img-responsive"> </div>
+	<div> <img src="{{ post.img-sqrt | prepend: site.baseurl }}"
+		   class="img-rounded img-responsive"> </div>
       </div><!--/col -->
 
       <!-- Post description -->
       <div class="col-sm-7 col-md-7">
         <div class="box-def">"
-	  <h2 class="box-title"><a href="{{ post.url | prepend: site.baseurl }}"> {{post.title}}</a></h2>
+	  <h2 class="box-title">
+	    <a href="{{ post.url | prepend: site.baseurl }}">
+	      {{post.title}}</a>
+	  </h2>
           <div class="post-content">
             <div> {{ post.excerpt }} </div>
 	  </div><!--/post-content -->
@@ -90,21 +95,19 @@ layout: default_main
 
       <div class="col-sm-6 col-md-3">
 	<div class="box-def">
-	  <img src="https://pingendo.com/assets/photos/user_placeholder.png" class="team-member-img img-center img-responsive img-circle"
-	       class="img-rounded img-responsive"
-	       style="border-radius: 100%;"
-	       alt="Foto grupal">
+	  <img src="{{ "/img/equipo/octa.jpg" | prepend: site.baseurl }}"
+	       class="team-member-img img-responsive"
+	       alt="Foto perfil Octavio">
 	  <h3 class="box-title">Octavio</h3>
-	  <p>Curious by nature, molecular biologist by training. PhD student. Free & public education is the way to go. Always learning, now entering the realm of data science with R, Python and GNU-Linux. Free software & open data FTW. Also: weekend cook, coffee lover and amateur football player.</p>
+	  <p>Curioso por naturaleza, biólogo molecular por formación. Estudiante de doctorado en Exactas. Aguante la educación pública, gratuita y de calidad! Siempre aprendiendo, en este momento entrando al mundo de la ciencia de datos de la mano de R, Python y GNU-Linux. Software libre y datos abiertos (L). También soy cocinero de fin de semana, amante del cafe y jugador de fobal.</p>
 	</div><!--/box-def -->
       </div><!--/col -->
 
       <div class="col-sm-6 col-md-3">
 	<div class="box-def">
 	  <img src="{{ "/img/equipo/cezar.png" | prepend: site.baseurl }}"
-	       class="img-rounded img-responsive"
-	       style="border-radius: 100%;"
-	       alt="Foto grupal">
+	       class="team-member-img img-responsive"
+	       alt="Foto perfil Cezar">
 	  <h3 class="box-title">Cezar</h3>
 	  <p>I'm always learning something new about anything, from artificial intelligence, robotics and more programming things to languages like japanese and even art sometimes! My principal motivation is having fun, i always try to do everything while having fun and make everybody have fun while doing it with me. I was born in Brazil and lived most of my life in Argentina and my next objetive is to travel arround the world learning and helping to shape the future.</p>
 	</div><!--/box-def -->
@@ -112,21 +115,19 @@ layout: default_main
 
       <div class="col-sm-6 col-md-3">
 	<div class="box-def">
-	  <img src="https://pingendo.com/assets/photos/user_placeholder.png" class="team-member-img img-center img-responsive img-circle"
-	       class="img-rounded img-responsive"
-	       style="border-radius: 100%;"
-	       alt="Foto grupal">
+	  <img src="{{ "/img/equipo/carlos.jpg" | prepend: site.baseurl }}"
+	       class="team-member-img img-responsive"
+	       alt="Foto perfil Carlos">
 	  <h3 class="box-title">Carlos</h3>
-	  <p>In elementary school, with my friends, we were hunters of dinosaurs. Science was the haven for our endless questions. Cinephile from early age, passionate reader and art lover. I can still recall the fear of watching Tom Sawyer hiding in the darkness of a mine. Journalist, actor, writer. Beginner in biotechnology. Neophyte in the science of data and free data.</p>
+	  <p>En la primaria, con mis amigos, éramos cazadores de dinosaurios. La ciencia era el refugio a nuestras interminables preguntas. Cinéfilo de pequeño, amante del arte y la lectura; tanto que todavía recuerdo el miedo que me provocó ver a Tom Sawyer escondido en la oscuridad de una mina. Periodista, actor, escritor. Principiante en biotecnología. Neófito en la ciencia de análisis de datos y en datos libres.</p>
 	</div><!--/box-def -->
       </div><!--/col -->
 
       <div class="col-sm-6 col-md-3">
 	<div class="box-def">
 	  <img src="{{ "/img/equipo/franco.png" | prepend: site.baseurl }}"
-	       class="img-rounded img-responsive"
-	       style="border-radius: 100%;"
-	       alt="Foto grupal">
+	       class="team-member-img img-responsive"
+	       alt="Foto perfil Franco">
 	  <h3 class="box-title">Franco</h3>
 	  <p>Estudiante de Meteorología en Exactas de la UBA. El 99.9% de los problemas se resuelven con Python y Datos Abiertos. Defensor de la Cultura, Sofware e Internet Libre. Proyecto de aikidoka</p>
 	</div><!--/box-def -->
