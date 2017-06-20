@@ -167,7 +167,7 @@ p {
  * Banner
  ***************************************/
 #banner {
-    background: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url("../img/banner.jpg") no-repeat center center fixed;
+    background: url("../img/banner.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -179,14 +179,14 @@ p {
 /* Tablets */
 @media only screen and (max-width : 768px) {
     #banner {
-	background: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url("../img/banner_sm.jpg") no-repeat center center fixed;
+	background: url("../img/banner_sm.png") no-repeat center center fixed;
     }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     #banner {
-	background: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url("../img/banner_xs.jpg") no-repeat center center fixed;
+	background: url("../img/banner_xs.png") no-repeat center center fixed;
     }
 }
 
