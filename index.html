@@ -25,19 +25,26 @@ layout: default_main
 <section id="news">
   <div class="container">
     <div class="row">
+      {% for post in site.posts %}
+      {% if post.title == "QUEREMOS PLATA" %}
 
-      <h2>NASA Space Apps Buenos Aires Global Nominee</h2>
-      <h2>Pollen alert: the alergen compass</h2>
-
-      <div class="col-sm-10 col-sm-offset-1">
-	<div align="center" class="embed-responsive embed-responsive-16by9">
-	  <iframe width="854" height="480"
-		  src="https://www.youtube.com/embed/9M91NDIaKHo"
-		  frameborder="0" allowfullscreen>
-	  </iframe>
-	</div><!--/embed -->
+      <!-- Img -->
+      <div class="col-sm-5 col-md-5">
+	<div> <img src="{{ post.img-sqrt | prepend: site.baseurl }}" class="img-rounded img-responsive"> </div>
       </div><!--/col -->
 
+      <!-- Post description -->
+      <div class="col-sm-7 col-md-7">
+        <div class="box-def">"
+	  <h2 class="box-title"><a href="{{ post.url | prepend: site.baseurl }}"> {{post.title}}</a></h2>
+          <div class="post-content">
+            <div> {{ post.excerpt }} </div>
+	  </div><!--/post-content -->
+	</div><!--/box-def -->
+      </div><!--/col -->
+      
+      {%endif%}
+      {%endfor%}
     </div><!--/row -->
   </div><!--/container -->
 </section>
@@ -93,7 +100,7 @@ layout: default_main
 	       style="border-radius: 100%;"
 	       alt="Foto grupal">
 	  <h3 class="box-title">Cezar</h3>
-	  <p>Estudiante de Meteorología en Exactas de la UBA. El 99.9% de los problemas se resuelven con Python y Datos Abiertos. Defensor de la Cultura, Sofware e Internet Libre. Proyecto de aikidoka</p>
+	  <p>I'm always learning something new about anything, from artificial intelligence, robotics and more programming things to languages like japanese and even art sometimes! My principal motivation is having fun, i always try to do everything while having fun and make everybody have fun while doing it with me. I was born in Brazil and lived most of my life in Argentina and my next objetive is to travel arround the world learning and helping to shape the future.</p>
 	</div><!--/box-def -->
       </div><!--/col -->
 
