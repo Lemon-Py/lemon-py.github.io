@@ -266,6 +266,7 @@ p {
     -ms-filter: grayscale(1);
     -o-filter: grayscale(1);
     filter: grayscale(1);
+    margin: 0 auto;
 }
 
 /****************************************
