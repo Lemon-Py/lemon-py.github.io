@@ -78,6 +78,16 @@ p {
     color: #e8e8e8;
     font-weight: 700;
 }
+
+.color-green-1 {
+    color: #89dc42;
+    font-weight: 700;
+}
+
+.color-green-2 {
+    color: #75bf34;
+    font-weight: 700;
+}
 /****************************************
  * Nav-bar
  ***************************************/
