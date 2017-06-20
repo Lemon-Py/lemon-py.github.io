@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  /*
   // footer hide
   $('footer').hide();
 
@@ -33,7 +34,7 @@ $(document).ready(function(){
   $('#footer-close').on('click', function(){
     $('footer').slideToggle();
   });
-
+  */
   // Smooth scroll
   $('a[href*=\\#]').on('click', function(event){
     event.preventDefault();
