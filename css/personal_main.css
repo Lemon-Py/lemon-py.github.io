@@ -154,24 +154,14 @@ strong {
     text-align: justify;
 }
 
-.box-list {
-    text-align: left;
-}
-
-.box-list ul {
-    padding: 0px;
-    font-size: 16px;
-}
-
-.box-list ul li i {
-    color: #1ABC9C;
-}
-
-.box-list ul li p {
-    padding: 0px;
-    text-align: right;
-    margin: 0px;
-    display: inline;
+.box-li {
+    color: #87818C;
+    font-size: 15px;
+    letter-spacing: -0.02em;
+    line-height: 1.6em;
+    padding: 0px 15px;
+    text-align: justify;
+    padding-bottom: 15px;
 }
 
 .box-img {
