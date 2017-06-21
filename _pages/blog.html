@@ -2,7 +2,7 @@
 layout: page
 title: Blog de LemonPy
 permalink: /blog
-description: "Welcome to our blog."
+description: "Bienvenido a nuestro blog"
 header-img: img/blog-bg.jpg
 ---
 {% for post in site.posts %}
@@ -16,7 +16,7 @@ header-img: img/blog-bg.jpg
         </h3>
         {% endif %}
     </a>
-    <p class="post-meta">Posted on {{ post.date | date: "%B %-d, %Y" }}</p>
+    <p class="post-meta">Posteado el {{ post.date | date: "%-d %B, %Y" }}</p>
 </div>
 <hr>
 {% endfor %}
