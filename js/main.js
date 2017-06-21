@@ -19,13 +19,6 @@ $(document).ready(function(){
     $(".team-member-img").eq(i).attr("src",members[i][2]);
   };
 
-
-  // Collapses navbar after click on mobile
-  $('#navbar').on("click", "a", null, function () {
-         $('#navbar').collapse('hide');
-     });
-
-
   // footer toggle
   $('#more').on('click', function(){
     $('footer').slideToggle();
@@ -35,6 +28,13 @@ $(document).ready(function(){
     $('footer').slideToggle();
   });
   */
+
+  // Collapses navbar after click on mobile
+  $('#myNavbar').on("click", "a", null, function () {
+         $('#myNavbar').collapse('hide');
+     });
+
+
   // Smooth scroll
   $('a[href*=\\#]').on('click', function(event){
     event.preventDefault();
