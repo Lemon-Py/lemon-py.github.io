@@ -5,20 +5,28 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-source: .
-include: ['_pages']
-
-
 # Site settings
 title: LemonPy
-email: lemon4py@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Urban vegetation phenology analysis. Sattelite image based, open source and
   community powered
+encoding: utf-8
+
+# Server
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lemon-py.github.io/" # the base hostname & protocol for your site
-twitter_username: Lemon4Py
-github_username:  lemon-py
+
+# Time zone
+timezone: America/Argentina/Cordoba
 
 # Build settings
+source: .
+include: ['_pages']
 markdown: kramdown
+permalink: pretty
+exclude: [.git, .gitignore]
+
+# Social links
+email: lemon4py@gmail.com
+twitter_username: lemon4Py
+github_username:  lemon-py
