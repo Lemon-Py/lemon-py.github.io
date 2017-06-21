@@ -16,8 +16,6 @@
     font-weight: 700;
 }
 
-
-
 /****************************************
  * Rest of template
  ***************************************/
@@ -27,26 +25,28 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6,navbar-brand {
+h1, h2, h3, h4, h5, h6, navbar-brand {
   font-family: 'Nunito', sans-serif;
   font-weight: 800;
 }
 
 a {
-  color: #404040;
+  color:  #0085a1;
 }
-a:hover,
-a:focus {
-  color: #0085a1;
+
+a:hover, a:focus {
+    color: #0085a1;
 }
-a img:hover,
-a img:focus {
+
+a img:hover, a img:focus {
   cursor: zoom-in;
-}
+	     }
+
 blockquote {
   color: #808080;
   font-style: italic;
 }
+
 hr.small {
   max-width: 100px;
   margin: 15px auto;
@@ -54,6 +54,9 @@ hr.small {
   border-color: white;
 }
 
+/****************************************
+ * Nav-Bar
+ ***************************************/
 .navbar-custom {
   background: white;
   position: absolute;
@@ -66,6 +69,7 @@ hr.small {
 .navbar-custom .navbar-brand {
   font-weight: 800;
 }
+
 .navbar-custom .nav li a {
   text-transform: uppercase;
   font-size: 12px;
