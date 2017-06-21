@@ -76,6 +76,14 @@ hr.small {
   font-weight: 800;
   letter-spacing: 1px;
 }
+
+/****************************************
+ * Post-text
+ ***************************************/
+.post-text p {
+    text-align: justify;
+}
+
 /* A partir de acá deje todo igual */
 
 @media only screen and (min-width: 768px) {
