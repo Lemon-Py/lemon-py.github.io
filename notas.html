@@ -1,0 +1,49 @@
+---
+layout: default_main
+---
+
+<section id="notices">
+  <div class="container">
+
+    <h2>Notas sobre <span class="color-blue">Lemon</span>
+      <span class="color-red">Py</span></h2>
+
+    {% for nota in site.data.notas %}
+    {% assign loopindex = forloop.index0 | modulo: 3 %}
+
+    {% if loopindex == 0 %}
+    <div class="row">
+    {% endif %}
+
+      <div class="col-md-4">
+	<div class="box-def">
+
+	  <!-- Image -->
+	  <div class="box-img-zoom">
+	    <a href="{{ nota.link }}"
+	       target="_blank">
+	      <img src="/img/notas/{{ nota.img }}"
+		   class="img-responsive">
+	    </a>
+	  </div>
+
+	  <!-- Title -->
+	  <h3 class="box-title">{{ nota.title }}</h3>
+
+	  <!-- Date -->
+	  <div class="box-meta">
+	    <i class="fa fa-calendar"></i>
+	    {{ nota.date }}
+	  </div><!--/box-meta -->
+	  
+	</div><!--/box-def -->
+      </div><!--/col -->
+
+    {% if loopindex == 2 %}
+    </div><!--/row -->
+    {% endif %}
+    
+    {% endfor %}
+
+  </div><!--/container -->
+</section>
