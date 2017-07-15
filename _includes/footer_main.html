@@ -45,3 +45,26 @@
 <script src="{{ "/js/typeWriter.js" | prepend: site.baseurl }}"></script>
 <!-- personal js -->
 <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
+<!-- countdown js -->
+<script src="/js/flipclock.min.js"></script>
+<script type="text/javascript">
+  var clock;
+
+  $(document).ready(function() {
+
+  // Grab the current date
+  var currentDate = new Date();
+
+  var futureDate = new Date(2017, 7, 3);
+
+  // Calculate the difference in seconds between the future and current date
+  var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+
+  // Instantiate a coutdown FlipClock
+  clock = $('.clock').FlipClock(diff, {
+  clockFace: 'DailyCounter',
+  countdown: true,
+  language:'es-es',
+  });
+  });
+</script>

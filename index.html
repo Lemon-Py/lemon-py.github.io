@@ -32,53 +32,71 @@ layout: default_main
 <section id="news">
   <div class="container">
     <div class="row">
-      {% for post in site.posts %}
-      {% if post.title == "Ganamos el NASA Space Apps: Best use of Data" %}
-
-      <!-- Img -->
-      <div class="col-sm-5 col-md-5">
-	<div> <img src="{{ "img/nasa_space.jpg" | prepend: site.baseurl }}"
-		   class="img-rounded img-responsive"> </div>
-      </div><!--/col -->
-
-      <!-- Post description -->
-      <div class="col-sm-7 col-md-7">
-        <div class="box-def">"
-	  <h2 class="box-title">
-	    <a href="{{ post.url | prepend: site.baseurl }}">
-	      Ganamos NASA Space Apps 2017: Mejor Uso de Datos</a>
-	  </h2>
-    <p>Y por eso, <strong>fuimos invitados por NASA a asistir a un lanzamiento espacial</strong> el 3 de Agosto. Ese día en el Kennedy Space Center en Cabo Cañaveral, Florida se lanza el Tracking and Data Relay Satellite <a href="https://tdrs.gsfc.nasa.gov/tdrs" target="_blank">TDRS-M</a> y tenemos que estar ahí representando a la Argentina!</p>
-    <p><strong>Necesitamos conseguir financiamiento para el viaje y la estadía</strong>. Todo suma, si compartís nuestros post, si likeas nuestros <a href="https://twitter.com/lemon4py" target="_blank">tweets</a>, si tenés algún contacto que te parece que nos pueda servir, o lo qué se te ocurra que nos pueda ayudar a concretar nuestro objetivo y poder conocer la NASA, estaremos muy agradecidos!
-<br>
-¡Si nos ayudan, hacía allá vamos!</p>
-	</div><!--/box-def -->
-      </div><!--/col -->
-
-      {%endif%}
-      {%endfor%}
-    </div><!--/row -->
-    <div class="row">
-      <div class="col-sm-12 col-md-12">
-        <div class="box-def">"
-          <h2 class="box-title">
-      	    <a href="#contact">
-      	      Se busca sponsor:</a>
-      	  </h2>
-          <p>Necesitamos pagar los pasajes aéreos, el alojamiento y otros viáticos, lo cual es mucha plata. Para esto, es que queremos que vos seas nuestro sponsor! Pero, para que además de ayudarnos a cumplir con este sueño te podamos ayudar a vos también, te proponemos las siguientes contraprestaciones:</p>
-
-	    <ul style="list-style-type:disc">
-	      <li class="box-li">Ya estamos teniendo varias entrevistas y se vienen muchas más. Vamos a mencionarte en todas las que podamos! Además, vamos a poner tu logo en nuestro sitio web, nuestro blog y también te vamos a mencionar en nuestras redes sociales.</li>
-
-	      <li class="box-li">Los datos son el centro de muchas empresas y proyectos como el nuestro, y nosotros somos futuros científicos de datos! A cambio de tu apoyo económico, podemos realizar adquisición, limpieza y visualización de tus datos.</li>
-
-	      <li class="box-li">Somos un equipo que se generó en 48hs, sin conocernos anteriormente. Sin embargo, logramos llegar hasta acá superando diversos obstáculos en poco tiempo, y creemos que vamos a lograr mucho más! Si te interesa que compartamos cómo fue nuestra experiencia, te podemos ayudar.</li>
-	    </ul>
-
-          <p><strong><a href="#contact">Si estás interesado en estas propuestas o tenés otras en mente, contactanos!</a></strong></p>
-        </div>
-      </div>
-    </div><!--/row -->
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/timeline/floralis_sm.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>29 y 30 de abril:</h4>
+                                    <h4 class="subheading">Nace LemonPy</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Nos conocimos en la edición de Buenos Aires del NASA Space Apps Challenge en la UNSAM.</p>
+                                    <p class="text-muted">Allí ideamos Pollen allert y ganamos a por el mejor uso de datos a nivel local.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/timeline/nasa_space.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>17 de junio:</h4>
+                                    <h4 class="subheading">Ganamos el NASA Space Apps Challenge a nivel global</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Fuimos premiados por un jurado internacional de la NASA y nos invitaron a asistir al lanzamiento del Tracking and Data Relay Satellite <a href="https://tdrs.gsfc.nasa.gov/tdrs" target="_blank">TDRS-M</a> el 3 de Agosto en el Kennedy Space Center en Cabo Cañaveral, Florida.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/timeline/sponsors.jpeg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>21 de junio:</h4>
+                                    <h4 class="subheading">Campaña de sponsors</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">La invitación no cubre los costos del viaje pero gracias a Despegar, la Municipalidad de Vicente López, Acerolatina y Sidesys, podemos viajar a recibir nuestro premio!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/timeline/despegue.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Ahora:</h4>
+                                    <h4 class="subheading">Esperando el despegue</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">La cuenta regresiva para el 3 de agosto ya empezó!</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12"><div class="clock"></div></div>
+            <div>
   </div><!--/container -->
 </section>
 
